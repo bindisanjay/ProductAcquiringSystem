@@ -19,7 +19,7 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 /**
  *
- * @author Lenovo
+ * @author Abhishek Dharamkar Ramesh
  */
 public class Orders extends HttpServlet {
 
@@ -75,6 +75,7 @@ FileItem f1=(FileItem)list.get(0);
             }
   
      
+	 
  }else if(type.equalsIgnoreCase("cartdel")){
             FileItem f2=(FileItem)list.get(1);
             FileItem f3=(FileItem)list.get(2);  
@@ -94,11 +95,7 @@ FileItem f1=(FileItem)list.get(0);
                                     {  response.sendRedirect("EOrders.jsp?v="+its+"");}
                                 else{  response.sendRedirect("EOrders.jsp?v="+its+"");}
             }
-  
-            
-            
-            
-             
+    
 
  } else if(type.equalsIgnoreCase("prequest")){
      
@@ -122,10 +119,7 @@ FileItem f1=(FileItem)list.get(0);
             response.sendRedirect("Reports.jsp?v="+its+"");}
                         else{  response.sendRedirect("Reports.jsp?v="+its+"");}
             
-            
-            
-            
-     
+   
  }else if(type.equalsIgnoreCase("purchase")){
      
      
