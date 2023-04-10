@@ -287,14 +287,7 @@ System.out.println("mmm::"+st);
                           </div>
                         </div>
                       </div> 
-                         <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Discount</label>
-                          <div class="col-sm-9">
-                              <input type="text" name="dis" class="form-control" required />
-                          </div>
-                        </div>
-                      </div>
+                         
                     </div> 
                     <div class="row">
                       <div class="col-md-6">
