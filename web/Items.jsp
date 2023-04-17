@@ -486,7 +486,7 @@ String id=request.getParameter("id");
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Description</label>
+                          <label class="col-sm-3 col-form-label">UPC</label>
                           <div class="col-sm-9">
                                <textarea name="descr" class="form-control"   required=""><%=rs1.getString(4)%></textarea>
                           </div>
