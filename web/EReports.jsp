@@ -366,6 +366,8 @@ String d5=request.getParameter("5");
                         </div>
                       </div>
                         
+                        
+                        
                         <div class="col-md-6">
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Total Price </label>
@@ -396,6 +398,32 @@ String d5=request.getParameter("5");
                         </div>
                       </div>
                       <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Routing Number </label>
+                          <div class="col-sm-9">
+                
+                              <input type="text" name="det" class="form-control"  value ="110238563" required="">
+                              
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+             
+             
+             
+             
+             <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Bank Account Number </label>
+                          <div class="col-sm-9">
+                
+                              <input type="text" name="det" class="form-control"  value ="908907643685" required="">
+                              
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
                         <div class="form-group row"> 
                           <div class="col-sm-9">  
                     <input class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit" value="Submit">
@@ -404,8 +432,7 @@ String d5=request.getParameter("5");
                         </div>
                       </div> 
                     </div>
-                     
-                      
+                    
                        
                   </form>
        

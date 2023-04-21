@@ -274,7 +274,7 @@ System.out.println("mmm::"+st);
                       </div> 
                          <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Discount</label>
+                          <label class="col-sm-3 col-form-label">UPC</label>
                           <div class="col-sm-9">
                               <input type="text" name="dis" class="form-control" required />
                           </div>
@@ -339,7 +339,7 @@ System.out.println("mmm::"+st);
   <tr>  <th>  IID  </th>   <th>  Photo </th>  <th>  Name </th> 
   <th>  Category  </th>   
   <th>  Company  </th>  <th>  Price </th> 
-  <th>  Discount  </th> <th>  Expiry Date  </th>  
+  <th>  UPC  </th> <th>  Expiry Date  </th>  
   <th>  Add By </th> <th>  Modify Date </th><th>  Count </th> </tr>
                       </thead>
                       <tbody>
@@ -499,7 +499,7 @@ String id=request.getParameter("id");
                       </div> 
                          <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Discount</label>
+                          <label class="col-sm-3 col-form-label">UPC</label>
                           <div class="col-sm-9">
                               <input type="text" name="dis" value="<%=rs1.getString(7)%>"  class="form-control" required />
                           </div>
